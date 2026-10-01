@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Für dich ❤️</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg, #ffd6e7, #fff);
+      color:#4a2c35;
+      overflow-x:hidden;
+    }
+
+    section{
+      padding:80px 20px;
+      text-align:center;
+    }
+
+    h1,h2{
+      color:#c2185b;
+      margin-bottom:20px;
+    }
+
+    p{
+      line-height:1.7;
+      max-width:700px;
+      margin:auto;
+    }
+
+    .hero{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      text-align:center;
+    }
+
+    .hero h1{
+      font-size:60px;
+    }
+
+    .btn{
+      margin-top:30px;
+      background:#c2185b;
+      color:white;
+      padding:15px 30px;
+      border:none;
+      border-radius:50px;
+      cursor:pointer;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      transform:scale(1.05);
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      margin-top:40px;
+    }
+
+    .card{
+      background:white;
+      padding:25px;
+      border-radius:20px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    .timeline{
+      max-width:700px;
+      margin:auto;
+      text-align:left;
+    }
+
+    .event{
+      margin:30px 0;
+      padding-left:20px;
+      border-left:3px solid #c2185b;
+    }
+
+    .photos{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+      margin-top:40px;
+    }
+
+    .photo{
+      background:white;
+      padding:50px 20px;
+      border-radius:15px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    .bucket{
+      max-width:600px;
+      margin:auto;
+      text-align:left;
+    }
+
+    .bucket li{
+      margin:15px 0;
+      list-style:none;
+      font-size:18px;
+    }
+
+    .letter{
+      background:white;
+      max-width:700px;
+      margin:auto;
+      padding:40px;
+      border-radius:20px;
+      box-shadow:0 5px 25px rgba(0,0,0,0.1);
+    }
+
+    #secret{
+      display:none;
+      margin-top:30px;
+      font-size:24px;
+      color:#c2185b;
+      font-weight:bold;
+    }
+
+    .heart{
+      position:fixed;
+      bottom:-20px;
+      animation:float 5s linear forwards;
+      pointer-events:none;
+    }
+
+    @keyframes float{
+      to{
+        transform:translateY(-110vh);
+        opacity:0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Start -->
+  <section class="hero">
+    <h1>Hey, meine Liebe ❤️</h1>
+    <p>
+      Ich habe diese kleine Website gemacht,
+      weil "Ich liebe dich" manchmal einfach nicht genug ist.
+    </p>
+
+    <a href="#liebe" class="btn">Öffne mein Herz ❤️</a>
+  </section>
+
+  <!-- Warum ich dich liebe -->
+  <section id="liebe">
+    <h2>Warum ich dich liebe</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>😊 Dein Lächeln</h3>
+        <p>Weil du jeden Tag schöner machst.</p>
+      </div>
+
+      <div class="card">
+        <h3>😂 Dein Humor</h3>
+        <p>Weil ich mit niemandem lieber lache.</p>
+      </div>
+
+      <div class="card">
+        <h3>❤️ Deine Art</h3>
+        <p>Weil du einfach du bist.</p>
+      </div>
+
+      <div class="card">
+        <h3>✨ Die kleinen Dinge</h3>
+        <p>All die Dinge, die du tust, ohne es zu merken.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section>
+    <h2>Unsere Geschichte</h2>
+
+    <div class="timeline">
+      <div class="event">
+        <h3>Der Tag, an dem wir uns kennengelernt haben</h3>
+        <p>Du hast von einmal in meinem Leben Rein gekommen, Die erste moment ich dich gesehen habe
+            ich wünschte dass wir zusammenkommen.Die beste zeit für mich ist unsere nachts auf balcon,niemals kann ich so welche moments vergessen.</p>
+      </div>
+
+      <div class="event">
+        <h3>Unser schönster Moment</h3>
+        <p>Diese einmal wo ich ein shisha gemacht habe und, Haben wir die nacht auf balcon geraucht</p>
+      </div>
+
+      <div class="event">
+        <h3>Heute</h3>
+        <p>Und unsere Geschichte geht weiter. ❤️</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fotos -->
+  <section>
+    <h2>Unsere Erinnerungen</h2>
+
+    <div class="photos">
+      <div class="photo">📸 
+        <img src="photo 1.jpeg" alt="unser Fotos" width="300" height="450">
+    </div>
+      <div class="photo">📸
+        <img src="photo 2.jpeg" alt="unser Fotos" width="300" height="450">
+      </div>
+      <div class="photo">📸 
+        <img src="photo 3.jpeg"alt="unser Fotos"  width="300" height="450">
+      </div>
+    </div>
+  </section>
+
+  <!-- Bucket List -->
+  <section>
+    <h2>Dinge, die ich mit dir erleben möchte</h2>
+
+    <div class="bucket">
+      <li>🌅 Einen Sonnenaufgang zusammen sehen</li>
+      <li>✈️ Gemeinsam reisen</li>
+      <li>📸 Tausende Fotos machen</li>
+      <li>🍕 Viele schöne Abende zusammen verbringen</li>
+      <li>❤️ Gemeinsam alt werden</li>
+    </div>
+  </section>
+
+  <!-- Brief -->
+  <section>
+    <h2>Ein Brief an dich</h2>
+
+    <div class="letter">
+      <p>
+        Meine Liebe,
+        <br><br>
+
+        ich könnte tausend Seiten schreiben und würde trotzdem
+        nicht alles ausdrücken können, was ich für dich empfinde.
+
+        Danke für jedes Lächeln, jede Umarmung und jeden Moment,
+        den wir teilen.
+
+        Ich weiß nicht, was die Zukunft bringt,
+        aber ich weiß, dass ich sie mit dir erleben möchte.
+
+        <br><br>
+
+        <strong>Ich liebe dich. ❤️</strong>
+      </p>
+    </div>
+
+    <button class="btn" onclick="showLove()">
+      Noch eine Überraschung ❤️
+    </button>
+
+    <div id="secret">
+      Du bist mein Lieblingsmensch. ❤️
+    </div>
+  </section>
+
+  <script>
+    function showLove(){
+
+      document.getElementById("secret").style.display = "block";
+
+      for(let i = 0; i < 30; i++){
+
+        let heart = document.createElement("div");
+        heart.className = "heart";
+        heart.innerHTML = "❤️";
+
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.fontSize = (20 + Math.random() * 20) + "px";
+        heart.style.animationDuration = (3 + Math.random() * 3) + "s";
+
+        document.body.appendChild(heart);
+
+        setTimeout(()=>{
+          heart.remove();
+        },6000);
+      }
+    }
+  </script>
+
+</body>
+</html>
